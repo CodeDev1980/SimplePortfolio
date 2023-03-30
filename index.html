@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/e6e21676c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-burgundy sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">SB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blogs">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <ul class="d-flex navbar-nav text-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </a>
+                </li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">-->
+<!--                        <i class="fa-solid fa-right-from-bracket"></i>-->
+<!--                    </a>-->
+<!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--header-->
+<header class="bg-card text-white mb-5">
+    <section itemprop="author">
+        <div class="container">
+            <div class="row justify-content-center align-items-center" id="intro">
+                <div class="col-lg-12" itemid="author intro" itemprop="author card">
+                    <div class="jumbotron p-5">
+                        <div class="row">
+                            <div class="col-md-4 p-2" itemid="author image">
+                                <img src="/img/author.png"
+                                     class="rounded-5"
+                                     height="230"
+                                     width="230"
+                                     loading="lazy"
+                                     alt="author">
+                            </div>
+                            <div class="col-md-8 p-2" itemid="author information">
+                                <p>Hi, my name is</p>
+                                <h1 class="display-4 fw-bold">Stephen Brooks</h1>
+                                <p class="text-white">
+                                    I build custom websites with html, css, and javascript. I am a freelance web developer located in
+                                    Oklahoma. Outside of coding I was involved with playing guitar for a long time, served in the Army
+                                    for 17 years, and love the outdoors.
+                                </p>
+                                <a href="mailto:codedev1980@gail.com" class="btn btn-light w-25 rounded-pill">hire me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!--header-->
+
+<main class="container my-4 py-3" id="skills">
+    <section>
+        <h2 class="display-5 text-center">Skills Overview</h2>
+        <div class="line mb-4"></div>
+        <p class="lead mb-5 text-center">
+            My front end skills lie in html, css, javascript, and jQuery. Frameworks I used or use currently are Express, React, and Vue.
+            Backend skills are mostly with Node.js because it runs parallel in tasking server request, making it faster than the long supported
+            PHP. For the database I use Mongoose Atlas. In my apps I make use of bcrypt for user validation, comparing against the information
+            provided at time of registration. Then creating, reading and deleting blogs after being authenticated. Certain pages that require
+            protected routes are protected and authenticated by JavaScript technology.
+        </p>
+        <div class="row text-center">
+            <div class="col-lg-4 p-3">
+                <div class="card p-2">
+                    <i class="fa-brands h1 fa-node-js"></i>
+                    <p>
+                        <strong>Front End</strong>
+                        <br>
+                        Html -
+                        Css -
+                        JS - jQuery <br>
+                        EJS - Vue - React
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 p-3">
+                <div class="card p-2">
+                    <i class="fa-brands h1 fa-node"></i>
+                    <p>
+                        <strong>Back End</strong>
+                        <br>
+                        Node -
+                        Mongoose -
+                        Express <br>
+                        0auth - forms - blogs
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 p-3">
+                <div class="card p-2">
+                    <i class="fa-solid h1 fa-code"></i>
+                    <p>
+                        <strong>Other</strong>
+                        <br>
+                        Content -
+                        NFT Art -
+                        Marketing <br>
+                        Wireframes - Unit Testing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card text-center container p-2 mt-5">
+            <h2>What People Have Said About Me</h2>
+            <div class="row row-cols-xl-6 text-center justify-content-center align-items-center d-flex mx-auto me-2 py-2">
+                <div class="col text-center m-2">
+                    <div class="card text-center align-items-center justify-content-center shadow-lg p-2">
+                        <img src="https://themes.3rdwavemedia.com/instance/bs5/2.0/assets/images/clients/profile-1.jpg"
+                             height="65" width="65"
+                             class="rounded-circle" loading="lazy" alt="review">
+
+                        <em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</em>
+
+                        <picture>- John Sikes</picture>
+                    </div>
+                </div>
+                <div class="col m-2">
+                    <div class="card text-center align-items-center justify-content-center shadow-lg p-2">
+                        <img src="https://themes.3rdwavemedia.com/instance/bs5/2.0/assets/images/clients/profile-1.jpg"
+                             height="65" width="65"
+                             class="rounded-circle" loading="lazy" alt="review">
+
+                        <em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</em>
+
+                        <picture>- Mike Smith</picture>
+                    </div>
+                </div>
+                <div class="col m-2">
+                    <div class="card text-center align-items-center justify-content-center shadow-lg p-2">
+                        <img src="https://themes.3rdwavemedia.com/instance/bs5/2.0/assets/images/clients/profile-1.jpg"
+                             height="65" width="65"
+                             class="rounded-circle" loading="lazy" alt="review">
+
+                        <em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</em>
+
+                        <picture>- Daniel Owens</picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blogs">
+        <div class="row mt-5">
+            <div class="col-md-4 p-2">
+                <img src="https://thumbs.dreamstime.com/b/blog-information-website-concept-workplace-background-text-view-above-127465079.jpg"
+                     loading="lazy"
+                     class="img-thumbnail"
+                     alt="blog image">
+            </div>
+            <div class="col-md-8 p-2">
+                <h2>Blog Title</h2>
+                <h4>Summary title section</h4>
+                <p>
+                </p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores at commodi dolor earum eveniet illum incidunt, laborum libero minima necessitatibus nostrum numquam quis, ratione reprehenderit soluta ullam veritatis voluptatum? . . .
+                <a href="#" class="btn btn-outline-dark rounded-pill">Continue To Read</a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 p-2">
+                <img src="https://thumbs.dreamstime.com/b/blog-information-website-concept-workplace-background-text-view-above-127465079.jpg"
+                     loading="lazy"
+                     class="img-thumbnail"
+                     alt="blog image">
+            </div>
+            <div class="col-md-8 p-2">
+                <h2>Blog Title</h2>
+                <h4>Summary title section</h4>
+                <p>
+                </p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores at commodi dolor earum eveniet illum incidunt, laborum libero minima necessitatibus nostrum numquam quis, ratione reprehenderit soluta ullam veritatis voluptatum? . . .
+                <a href="#" class="btn btn-outline-dark rounded-pill">Continue To Read</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-lg-10">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="reason" class="form-label">Why The Message?</label>
+                        <select name="reason" class="form-control" id="reason">
+                            <option value="website" selected>Website</option>
+                            <option value="web design">Web Design</option>
+                            <option value="group project">Group Project</option>
+                            <option value="database">Database</option>
+                            <option value="NFT Art">NFT Art</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" placeholder="Your message" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-primary p-4 mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-10 text-center">
+            <p class="lead text-white">
+                CopyRight@2023 - Stephen's Web Designs
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="/js/tabs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

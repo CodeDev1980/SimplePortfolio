@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.bg-burgundy {
+    background-color: #0066b2;
+}
+.bg-card {
+    background-color: dodgerblue;
+}
+.line {
+    border: 2px solid darkgray;
+    background-color: darkgray;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
